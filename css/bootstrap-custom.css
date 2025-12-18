@@ -1,1 +1,13 @@
+.hero{
+  background: linear-gradient(180deg, rgba(13,110,253,0.14), rgba(255,255,255,0));
+}
+.navbar .nav-link{
+  opacity: 0.92;
+}
+.navbar .nav-link:hover{
+  opacity: 1;
+}
+.card ul{
+  padding-left: 1.1rem;
+}
 
