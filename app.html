@@ -26,8 +26,8 @@
         Build a simple session plan, track completed sets, and keep a clean log you can copy and reuse.
       </p>
       <div class="cta-row">
-        <a class="btn" href="#builder">Session Builder</a>
-        <a class="btn btn-outline" href="#plan">Today’s Plan</a>
+        <span class="btn disabled">Session Builder</span>
+        <span class="btn btn-outline disabled">Today’s Plan</span>
       </div>
     </div>
 
@@ -41,31 +41,29 @@
           <input id="lift" type="text" placeholder="e.g., Incline Press">
         </div>
 
-        <div class="form-grid">
-          <div class="form-row">
-            <label for="sets">Sets</label>
-            <input id="sets" type="number" min="1" max="20" value="3">
-          </div>
+        <div class="form-row">
+          <label for="sets">Sets</label>
+          <input id="sets" type="number" min="1" max="20" value="3">
+        </div>
 
-          <div class="form-row">
-            <label for="reps">Reps</label>
-            <input id="reps" type="number" min="1" max="50" value="8">
-          </div>
+        <div class="form-row">
+          <label for="reps">Reps</label>
+          <input id="reps" type="number" min="1" max="50" value="8">
+        </div>
 
-          <div class="form-row">
-            <label for="rpe">RPE</label>
-            <select id="rpe">
-              <option>6</option>
-              <option>7</option>
-              <option selected>8</option>
-              <option>9</option>
-              <option>10</option>
-            </select>
-          </div>
+        <div class="form-row">
+          <label for="rpe">RPE</label>
+          <select id="rpe">
+            <option>6</option>
+            <option>7</option>
+            <option selected>8</option>
+            <option>9</option>
+            <option>10</option>
+          </select>
         </div>
 
         <div class="cta-row">
-          <button class="btn" id="add">Add to Plan</button>
+          <button class="btn" id="add" type="button">Add to Plan</button>
           <button class="btn btn-outline" id="clear" type="button">Clear Plan</button>
         </div>
 
@@ -194,13 +192,6 @@
       color: #0f172a;
     }
 
-    .form-grid {
-      display: grid;
-      grid-template-columns: 1fr 1fr;
-      gap: 12px;
-      margin-top: 6px;
-    }
-
     .stat {
       display: flex;
       align-items: baseline;
@@ -220,10 +211,10 @@
       font-weight: 700;
     }
 
-    @media (max-width: 820px) {
-      .form-grid {
-        grid-template-columns: 1fr;
-      }
+    .btn.disabled {
+      opacity: 0.6;
+      cursor: default;
+      pointer-events: none;
     }
   </style>
 </body>
