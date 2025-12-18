@@ -1,1 +1,122 @@
-<!doctype html><html><head><meta charset='utf-8'><title>Scratch</title></head><body><h1>Scratch Gym</h1></body></html>
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Scratch Page - Gym</title>
+  <link rel="stylesheet" href="css/scratch.css">
+</head>
+<body>
+<header class="site-header" id="top">
+  <div class="container">
+    <h1>Gym Scratch Page</h1>
+    <p class="subtitle">Built from scratch (no Bootstrap). Gym training, structure, and a nod to Mike Mentzer.</p>
+    <nav class="nav">
+      <a href="index.html">Home</a>
+      <a href="resume.html">Resume</a>
+      <a href="app.html">Web App</a>
+      <a href="#tableau">Go to Tableau</a>
+    </nav>
+  </div>
+</header>
+
+<main class="container">
+  <section class="card">
+    <h2>Why I Train</h2>
+    <p>
+      I train for strength, confidence, and long-term health. I like keeping things simple: a clear plan, consistent effort,
+      and measurable progress. Instead of doing random workouts, I track the basics—sets, reps, and rest—so every week I
+      can answer one question: am I improving?
+    </p>
+  </section>
+
+  <section class="card">
+    <h2>Mike Mentzer (Quick Overview)</h2>
+    <p>
+      Mike Mentzer is known for promoting high-intensity training (often called HIT): fewer sets, very high effort, and a strong
+      emphasis on recovery. The main idea is straightforward—if a set is truly hard and close to failure, you may not need a
+      huge number of sets to stimulate growth. That philosophy resonates with me because it forces you to train with purpose,
+      not just volume for the sake of volume.
+    </p>
+    <p>
+      My approach is not “all or nothing.” I borrow the spirit of Mentzer’s message—effort, focus, recovery—while still keeping
+      my training flexible and sustainable.
+    </p>
+  </section>
+
+  <section class="card two-col">
+    <div class="block">
+      <h3>Weekly Structure (Nested List Requirement)</h3>
+      <ol>
+        <li>Strength (3 days)
+          <ul>
+            <li>Push: bench or incline + overhead press + triceps</li>
+            <li>Pull: rows or pulldowns + rear delts + biceps</li>
+            <li>Legs: squat pattern + hinge pattern + calves</li>
+          </ul>
+        </li>
+        <li>Cardio (2 days)
+          <ul>
+            <li>Zone 2 steady state (20–40 minutes)</li>
+            <li>Intervals (short, controlled, not reckless)</li>
+          </ul>
+        </li>
+        <li>Mobility (daily)
+          <ul>
+            <li>Hips, shoulders, ankles (5–10 minutes)</li>
+          </ul>
+        </li>
+      </ol>
+      <p class="hint">
+        I keep the plan simple so it’s easy to follow. Consistency beats complexity.
+      </p>
+    </div>
+
+    <div class="block">
+      <h3>Gym Image</h3>
+      <img class="photo" src="assets/img/gym1.jpg" alt="Gym image">
+      <p class="caption">This image is stored inside the repo so it won’t break when hosted.</p>
+    </div>
+  </section>
+
+  <section class="card">
+    <h3>YouTube Technique / Training Video</h3>
+    <p class="hint">Embedded video requirement. You can swap the video ID anytime.</p>
+    <div class="video-wrap">
+      <iframe src="https://www.youtube.com/embed/ultWZbUMPL8" allowfullscreen></iframe>
+    </div>
+  </section>
+
+  <section class="card" id="tableau">
+    <h2>Interactive Tableau Visualization</h2>
+    <p>
+      I like tracking progress and patterns over time—training volume, bodyweight trends, or cardio minutes per week.
+      Tableau is perfect for making that data interactive.
+    </p>
+    <div class="tableau-wrap">
+    </div>
+    <p class="hint">
+      Paste the Tableau Public “Embed Code” inside the empty div above so it shows an interactive visualization (not an image).
+    </p>
+    <p><a href="#top">Back to top</a></p>
+  </section>
+
+  <section class="card">
+    <h2>Quick Navigation</h2>
+    <p>These links connect this scratch page back to the professional pages and the app:</p>
+    <div class="nav" style="gap:14px; flex-wrap:wrap;">
+      <a href="index.html">Home</a>
+      <a href="resume.html">Resume</a>
+      <a href="app.html">Web App</a>
+      <a href="#top">Top</a>
+    </div>
+  </section>
+</main>
+
+<footer class="site-footer">
+  <div class="container">
+    <small>© 2025 Abraham Palomeque</small>
+  </div>
+</footer>
+</body>
+</html>
