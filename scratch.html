@@ -1,10 +1,10 @@
 <!DOCTYPE html>
 <html lang="en">
 <head>
-  <meta charset="UTF-8" />
-  <meta name="viewport" content="width=device-width, initial-scale=1.0" />
-  <title>From-Scratch Page | Gym + Mike Mentzer</title>
-  <link rel="stylesheet" href="css/scratch.css" />
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Scratch Page | Gym</title>
+  <link rel="stylesheet" href="css/scratch.css">
 </head>
 <body>
   <div class="topbar" id="top">
@@ -14,91 +14,77 @@
         <a href="index.html">Home</a>
         <a href="resume.html">Resume</a>
         <a href="app.html">Web App</a>
-        <a href="#tableau">Jump to Tableau</a>
+        <a href="#tableau">Tableau</a>
       </div>
     </div>
   </div>
 
   <div class="container">
     <div class="hero">
-      <h1>Gym Training, Progress Tracking, and a Nod to Mike Mentzer</h1>
+      <h1>Gym Training, Progress, and Focus</h1>
       <p>
-        This page is built from a blank HTML file with a custom stylesheet (no Bootstrap). It focuses on training structure,
-        tracking progress, and the idea that effort and recovery matter as much as the workout itself.
+        I like training that is simple to follow and easy to track. The goal is consistent effort, measurable progress,
+        and enough recovery to repeat strong sessions week after week.
       </p>
       <div class="cta-row">
-        <a class="btn" href="#mentzer">Read about Mike Mentzer</a>
-        <a class="btn btn-outline" href="#tableau">See the Tableau Viz</a>
+        <a class="btn" href="#mentzer">Mike Mentzer</a>
+        <a class="btn btn-outline" href="#tableau">Visualization</a>
       </div>
     </div>
 
     <div class="grid">
       <div class="card" id="mentzer">
-        <h2>Mike Mentzer (Short, Useful Summary)</h2>
+        <h2>Mike Mentzer (HIT in One Page)</h2>
         <p>
-          Mike Mentzer popularized high-intensity training (HIT): fewer total working sets, very high effort, and a serious focus
-          on recovery. The core point is simple: if you train hard enough to create a strong stimulus, you may not need endless
-          volume to make progress. Whether you follow HIT strictly or not, Mentzer’s emphasis on training with purpose (and not
-          “junk volume”) is a helpful filter for building an efficient routine.
+          Mike Mentzer is closely associated with High-Intensity Training (HIT). The theme is efficiency: fewer hard sets,
+          high focus, and recovery treated as part of the program. Even if you don’t follow HIT strictly, the mindset is useful:
+          avoid “junk volume,” keep technique honest, and make your work sets count.
         </p>
         <p>
-          My takeaway: train with intent, track your performance, and let recovery support the next session.
+          My approach borrows the best parts—intentional effort and recovery—while staying practical and sustainable.
         </p>
       </div>
 
       <div class="card">
-        <h2>Weekly Structure (Nested List Requirement)</h2>
-        <p>
-          I keep a simple schedule so it’s easy to be consistent. Here’s an ordered plan with an embedded unordered list.
-        </p>
+        <h2>Weekly Structure</h2>
+        <p>Simple routines are easier to execute. Here’s an ordered plan with an unordered list inside.</p>
         <ol>
           <li>
             Strength (3 days)
             <ul>
-              <li>Push: bench/incline + overhead press + triceps</li>
-              <li>Pull: row/pulldown + rear delts + biceps</li>
-              <li>Legs: squat pattern + hinge pattern + calves</li>
+              <li>Push: press + accessory work</li>
+              <li>Pull: row/pulldown + accessory work</li>
+              <li>Legs: squat/hinge patterns</li>
             </ul>
           </li>
           <li>
             Conditioning (2 days)
             <ul>
-              <li>Zone 2: 20–40 minutes</li>
-              <li>Intervals: short and controlled</li>
+              <li>Zone 2 steady state</li>
+              <li>Intervals (short, controlled)</li>
             </ul>
           </li>
           <li>
-            Mobility (daily)
+            Daily habits
             <ul>
-              <li>Hips, shoulders, ankles (5–10 minutes)</li>
+              <li>Mobility (5–10 min)</li>
+              <li>Sleep and hydration</li>
             </ul>
           </li>
         </ol>
-        <p class="note">
-          The goal is clarity: if you can’t explain your plan in one minute, it’s probably too complicated.
-        </p>
       </div>
     </div>
 
     <div class="grid">
       <div class="card">
-        <h2>Image (Not From Any Bootstrap Theme)</h2>
-        <p>
-          This image must live inside your repo so it never breaks when hosted.
-        </p>
+        <h2>Photo</h2>
         <div class="img-wrap">
-          <img src="assets/img/gym1.jpg" alt="Gym image" />
+          <img src="assets/img/gym1.jpg" alt="Gym photo">
         </div>
-        <p class="note">
-          Put a real file at <strong>assets/img/gym1.jpg</strong> (exact name, exact path).
-        </p>
       </div>
 
       <div class="card">
-        <h2>YouTube Embed (Required)</h2>
-        <p class="note">
-          You can replace the video anytime by changing the ID in the URL.
-        </p>
+        <h2>YouTube</h2>
         <div class="video-wrap">
           <iframe
             src="https://www.youtube.com/embed/ultWZbUMPL8"
@@ -111,11 +97,17 @@
     </div>
 
     <div class="card" id="tableau">
-      <h2>Live Interactive Tableau Visualization (Required)</h2>
-      <p>
-        Paste a Tableau Public <em>Embed Code</em> below. It must be interactive (not a screenshot).
-      </p>
-      <div class="tableau-wrap">
+      <h2>Interactive Tableau</h2>
+      <p>Interactive dashboards are a clean way to explore training logs, trends, and progress over time.</p>
+      <div class="tableau-embed">
+        <iframe
+          src="https://public.tableau.com/views/SuperstoreDashboard_16709573699130/SuperstoreDashboard?:showVizHome=no&:embed=true"
+          width="100%"
+          height="650"
+          frameborder="0"
+          scrolling="no"
+          title="Tableau Visualization">
+        </iframe>
       </div>
       <div class="anchor-row">
         <a class="btn btn-outline" href="#top">Back to Top</a>
@@ -123,11 +115,8 @@
     </div>
 
     <div class="card">
-      <h2>Navigation Back to Professional Pages</h2>
-      <p>
-        These links take you back to your professional pages and your app.
-      </p>
-      <div class="nav">
+      <h2>Navigation</h2>
+      <div class="nav dark">
         <a href="index.html">Home</a>
         <a href="resume.html">Resume</a>
         <a href="app.html">Web App</a>
@@ -135,8 +124,12 @@
     </div>
 
     <div class="footer">
-      <small>© 2025 Abraham Palomeque</small>
+      <small>© <span id="year"></span> Abraham Palomeque</small>
     </div>
   </div>
+
+  <script>
+    document.getElementById("year").textContent = new Date().getFullYear();
+  </script>
 </body>
 </html>
